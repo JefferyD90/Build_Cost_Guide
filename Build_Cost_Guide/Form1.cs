@@ -15,26 +15,13 @@ namespace Build_Cost_Guide
         public Build_Cost_Guide()
         {
             InitializeComponent();
+            int bTotal = Int32.Parse(textTotal.Text);
         }
         #region //Calculate Click Command
         public void Calculate1_Click(object sender, EventArgs e)
         {
-            int total;
-            total = Convert.ToInt32(textTotal.Text);
-            total = int.Parse(textTotal.Text);
-            
+            textMotherboarda = bTotal;
         }
-        #endregion
-
-        #region //AMD Formula
-        public void aCalc()
-        {
-            if (checkMotherboarda.Checked) { textMotherboarda = textTotal; }
-        }
-        #endregion
-
-        #region //Intel Formula
-
         #endregion
     }
 }
