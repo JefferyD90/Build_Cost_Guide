@@ -16,7 +16,7 @@ namespace Build_Cost_Guide
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Build_Cost_Guide());
         }
     }
 }
